@@ -1,0 +1,126 @@
+body {
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #653531;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-link {
+    text-decoration: none;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.barbershop-name-link {
+    text-decoration: none;
+}
+
+.barbershop-name {
+    font-size: 36px;
+    font-family: Georgia, serif;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: #95452C;
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 1.2em;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.main {
+    padding: 20px;
+    text-align: center;
+}
+
+.text-box {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    display: inline-block;
+    max-width: 30%;
+}
+
+.book-button-link {
+    text-decoration: none;
+}
+
+.book-button {
+    display: block;
+    margin: 20px auto;
+    padding: 15px 30px;
+    background-color: #653531;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    font-family: Georgia, serif;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+.book-button:hover {
+    background-color: #7a4035;
+}
+
+.background {
+    background-image: url('image.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    min-height: 300px;
+}
+
+.contact {
+    background-color: #95452C;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    align-items: start;
+}
+
+.contact-info {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.contact-hours {
+    text-align: right;
+}

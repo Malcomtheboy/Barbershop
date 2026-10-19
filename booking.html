@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malcom's Premium Barbershop</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="book.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Malcom's</div>
+    </nav>
+
+    <div class="booking-container">
+        <h1>Book Your Premium Grooming Experience</h1>
+        
+        <div class="barber-grid" id="barberGrid"></div>
+
+        <div class="calendar-container">
+            <div class="calendar-header">
+                <div class="month-nav">
+                    <button class="nav-btn" id="prevMonth"><i class="fas fa-chevron-left"></i></button>
+                    <h2 id="currentMonth"></h2>
+                    <button class="nav-btn" id="nextMonth"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+            <div class="calendar-grid" id="calendar"></div>
+            <div class="time-grid" id="timeGrid"></div>
+        </div>
+
+        <div class="confirmation-section" id="confirmation">
+            <h3>Your Appointment Details</h3>
+            <div id="bookingDetails"></div>
+            <button class="nav-btn" id="confirmBtn">Confirm Booking</button>
+        </div>
+    </div>
+
+    <script src="book.js"></script>
+</body>
+</html>
